@@ -1,21 +1,43 @@
-nav ul{background-color: grey;
-    padding: 20px ;
-    
-}
-nav ul{
-    text-align: center;
-    font-size: 1.2em;
-}
-nav ul li {
-    list-style-type: none;
-    background-color: grey;
-    display: inline;
-    padding: 15px; 
-    margin: 5px;
-    border: 2px solid red;
-    border-radius: 10px;
-}
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+        }
+        header {
+            background-color: rgb(6, 128, 6);
+            padding: 20px;
+            text-align: left;
+        }
+        h1 {
+            margin: 0;
+            text-align: right;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 5px 10px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }''
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
